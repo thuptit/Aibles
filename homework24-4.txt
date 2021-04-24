@@ -1,0 +1,1 @@
+2. lúc này lịch sử củ branch A là commit1 - commit2 - commit3 - commit4
