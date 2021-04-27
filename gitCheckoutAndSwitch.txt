@@ -1,2 +1,0 @@
--git switch: chỉ đơn giản để dùng chuyển đổi giữa các branch.
--git checkout: vừa có thể chuyển đổi branch vừa có thể check out về một cái commit nào đấy phục vụ cho việc chúng ta muốn phục hồi lại file.
