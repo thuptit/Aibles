@@ -1,0 +1,4 @@
+Trong gitflow, khi một nhánh hotfix được tạo, sau khi fix xong lỗi thì nó sẽ được merge vào những nhánh: master -> canary -> staging -> develop
+- Master: hotfix sinh ra để sửa lỗi ngay lập tức trên master với lượng người dùng lớn nhất trong các nhánh, nên phải merge vào đầu tiên.
+- sau đó lần lượt là nhánh canary -> stagin -> develop
+- lỗi xảy ra trên nhánh master đương nhiên nó sẽ xảy ra vs các nhánh còn lại mà bản thân master lại là bản cuối của các phiên bản còn lại nên nếu không fix lỗi ở các nhánh còn lại thì cuối cùng bản thân master vẫn sẽ bị lỗi đó hoặc còn có thể nhiều lỗi nghiêm trọng hơn
